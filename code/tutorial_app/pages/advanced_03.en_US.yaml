@@ -17,7 +17,7 @@ tasks:
     msg: |
       Create a new project for this excercise, name it `multi-container-project`.
 
-      Use the basic Python container as the base container.
+      Select the `Python Basic` base container.
 
       Then, create the project. Wait a few moments for it to finish building the project environment.
     response: |
@@ -109,7 +109,7 @@ tasks:
 
   - name: Start the containers with Compose
     msg: |
-      In the AI Workbench window, navigate to the Compose section of the Environment tab.
+      In the AI Workbench window, navigate to the **Compose** section under the **Environment** category.
 
       AI Workbench should already detect the ``docker-compose.yaml`` we built. If not, give it a refresh ([CTRL] + r).
 
@@ -119,16 +119,16 @@ tasks:
 
   - name: Test your application
     msg: |
-      The flask app should spin up in a new browser window. Interact with the app. Have fun, you built it!
+      Once the containers are running, view the application by navigating to `localhost:8000` in your browser. Interact with the app. Have fun, you built it!
 
-      We can see that the app is multicontainer via the Compose file. You can verify with a ``docker ps -a`` in the terminal.
+      We can see that the app is multi-container via the Compose file. You can verify with a ``docker ps -a`` in the terminal.
 
       There is a frontend container containing the flask application frontend, as well as a redis database backend to store the number of times the app has been accessed.
     response: "With Docker Compose, AI Workbench can orchestrate all manner of external dependencies."
 
   - name: Shutdown multi-container workloads
     msg: |
-      When you are ready, we can stop the Compose application. In the Compose section of the Environment tab, select Stop to stop the containers.
+      When you are ready, we can stop the Compose application. In the **Compose** section under the **Environment** category, click **Stop** in the top left corner to shut down the containers. You can also accomplish this from the **Compose** card in the **Project Dashboard**.
 
       The containers should take a few moments to wind down. You can verify with a ``docker ps -a`` in a terminal window.
     response: |
@@ -138,12 +138,12 @@ tasks:
 
 # footer data
 closing_msg: |
-  Congratulations! You have completed this exercise. 
+  Congratulations! You have completed this exercise.
   You can now stop your project and remove it if you would like.
 
   In this exercise, you learned how to:
-    - containerize your AI Workbench application
-    - orchestrate third party containers with AI Workbench and Docker Compose
+    - Containerize your AI Workbench application
+    - Orchestrate third party containers with AI Workbench and Docker Compose
 
 # testing messages
 # the helpers in the testing module may return one of these errors
