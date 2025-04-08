@@ -1,9 +1,9 @@
 # header data
 title: Multi-Container Projects
 welcome_msg: |
-  In this exercise, we will learn how to work with multi-container projects via compose. Working in a single container may be convenient for simple development work, but multi-container projects involving compose services can can greatly improve the versatility of your AI projects and enable you to take your your out of AI Workbench.
+  In this exercise, we will learn how to work with multi-container projects via Compose. Working in a single container may be convenient for simple development work, but multi-container projects involving Compose services can can greatly improve the versatility of your AI projects and enable you to take your creations out of AI Workbench.
 
-  Today, we will work through an example of creating a simple flask application using a multi-container compose project.
+  Today, we will work through an example of creating a simple flask application using a multi-container Compose project.
 header: Orchestrating Multiple Containers
 
 # general strings
@@ -107,7 +107,7 @@ tasks:
     response: "Perfect! Now we are ready to run our multi-container application."
     test: create_docker_compose
 
-  - name: Start the containers with compose
+  - name: Start the containers with Compose
     msg: |
       In the AI Workbench window, navigate to the Compose section of the Environment tab.
 
@@ -121,14 +121,14 @@ tasks:
     msg: |
       The flask app should spin up in a new browser window. Interact with the app. Have fun, you built it!
 
-      We can see that the app is multicontainer via the compose file. You can verify with a ``docker ps -a`` in the terminal.
+      We can see that the app is multicontainer via the Compose file. You can verify with a ``docker ps -a`` in the terminal.
 
       There is a frontend container containing the flask application frontend, as well as a redis database backend to store the number of times the app has been accessed.
     response: "With Docker Compose, AI Workbench can orchestrate all manner of external dependencies."
 
   - name: Shutdown multi-container workloads
     msg: |
-      When you are ready, we can stop the compose application. In the Compose section of the Environment tab, select Stop to stop the containers.
+      When you are ready, we can stop the Compose application. In the Compose section of the Environment tab, select Stop to stop the containers.
 
       The containers should take a few moments to wind down. You can verify with a ``docker ps -a`` in a terminal window.
     response: |
