@@ -2,6 +2,10 @@
 An interactive web application that guides you through the features of NVIDIA AI Workbench. 
 It's self-paced with hands-on exercises and step-by-step guidance for both basic and advanced workflows.
 
+## Prerequisites
+ - NVIDIA AI Workbench installed on your system
+ - 15 to 30 minutes of time
+
 ## Description
 This tutorial application is built using Streamlit and provides an interactive learning experience for NVIDIA AI Workbench. It covers everything from basic project setup to advanced features like environment customization and container management. The tutorial is designed to be self-paced and includes validation checks to ensure proper understanding of each concept.
 
@@ -36,15 +40,11 @@ The tutorial is organized into progressive sections:
 2. Custom Container Usage
 3. Advanced RAG Applications
 
-## Getting Started
+## Get Started
 
-1. Prerequisites
-   - NVIDIA AI Workbench installed on your system
-   - 15 to 30 minutes of time
-
-2. Launch the Tutorial application from the Project View
-
-3. Follow Along
+1. Clone this project into the AI Workbench desktop app
+2. From the project view, click the green **Open Tutorial** button in the top right
+3. The browser will open the tutorial, follow along:
    - Start with the basic exercises
    - Complete each task in sequence
    - Verify your progress with built-in validation
