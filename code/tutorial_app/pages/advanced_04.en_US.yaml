@@ -15,9 +15,9 @@ next: Next
 tasks: 
   - name: Create an instance on Brev
     msg: |
-      Let's first create an instance we can use to add to our local AI Workbench. Navigate to the [Brev console](https://console.brev.dev/). You may need to login or create a free account.
+      Let's first create an instance we can use to add to our local AI Workbench. Navigate to the [Brev console](https://brev.nvidia.com/). You may need to login or create a free account.
 
-      Select **Instances** > **New** > **VM Mode (no Jupyter necessary)**. This should take you to the selection panel. 
+      Select **Deploy an Instance** > **VM Mode (disable Preinstall Jupyter)**. This should take you to the selection panel. 
 
       Select a GPU of choice, for example, **NVIDIA A10**. Name the instance and deploy. Be patient, as it may take a few moments for the instance to start. 
     response: Congrats, you now have your own GPU instance to work in!

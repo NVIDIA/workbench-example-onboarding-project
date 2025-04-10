@@ -13,7 +13,7 @@ welcome_msg: |
 
   This is the AI Workbench Live Labs, an interactive guide to the features of NVIDIA AI Workbench. 
 
-  It is supposed to help you learn by doing instead of just reading the docs. 
+  It will help you learn by doing instead of only reading the docs. 
   
   However, you should feel free to work through the [docs](https://docs.nvidia.com/ai-workbench/latest/index.html)
   on your own or with the assistance of an LLM.

@@ -41,5 +41,5 @@ links:
   documentation: https://docs.nvidia.com/ai-workbench/user-guide/latest/overview/introduction.html
   about: https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/
   gethelp: https://forums.developer.nvidia.com/c/ai-data-science/nvidia-ai-workbench/671
-  bugs: https://github.com/nvidia
+  bugs: https://github.com/NVIDIA/workbench-example-onboarding-project/issues
   settings: settings

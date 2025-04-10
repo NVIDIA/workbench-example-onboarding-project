@@ -42,10 +42,10 @@ with theme.Theme():
     for task in MESSAGES.get("tasks", []):
         if not theme.print_task(NAME, task, TESTS, MESSAGES):
             break
+        COMPLETED_TASKS += 1
 
     else:
         # Print footer after last task
-        COMPLETED_TASKS += 1
         st.success(MESSAGES.get("closing_msg", None))
         theme.print_footer_nav(NAME)
 

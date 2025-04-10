@@ -38,11 +38,20 @@
       margin: 0px -64px;
     }
   }
+
+  [data-testid="stSidebarCollapseButton"] {
+    display: inline !important;
+  }
 }
 
-/* hide streamlit deploy btn */
 .stAppDeployButton {
   display: none;
+}
+
+/* hide flashing status header buttons */
+div.stStatusWidget {
+    display: none !important;
+    position: absolute !important;
 }
 
 /* toolbar styling */

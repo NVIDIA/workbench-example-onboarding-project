@@ -35,7 +35,7 @@ tasks_onetime:
         In Windows PowerShell: 
         ```powershell
         ssh-keygen -f "~\\.ssh\\id_rsa" -t rsa -N '""'
-        type $env:USERPROFILE\.ssh\id_rsa.pub | ssh <remote-user>@<remote-machine> "cat >> ~/.ssh/authorized_keys"
+        type $env:USERPROFILE\.ssh\id_rsa.pub | ssh <remote-user>@<remote-machine> "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
         ```
     response: |
       This will generate private and public keys at `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub` respectively. The public key is then installed on the remote machine for the specified remote user. 

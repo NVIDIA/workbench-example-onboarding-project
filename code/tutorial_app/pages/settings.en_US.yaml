@@ -20,6 +20,8 @@ reset_progress_tasks:
       - my-first-project
       - custom-application-project
       - multi-container-project
+      
+      If after resetting you still see tracked progress, got to the AI Workbench  File Browser view and delete file `data/scratch/tutorial_state.json`.
 
     response: |
       ##### All done! This page will refresh soon.
@@ -27,7 +29,7 @@ reset_progress_tasks:
 
 bundle_header: Logs and Support Bundles
 bundle_msg: |
-  A **Support Bundle** is a collection of these logs that capture the state of your AI Workbench. To create a support bundle to send in for troubleshooting, first open the AI Workbench CLI (WSL distro if on Windows)
+  A **Support Bundle** is a collection of logs that capture the state of your AI Workbench. To create a support bundle to send in for troubleshooting, first open the AI Workbench CLI (use the WSL distro if on Windows)
 
   Then, run the following command(s):
 
