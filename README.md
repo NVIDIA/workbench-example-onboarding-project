@@ -4,7 +4,7 @@ It's self-paced with hands-on exercises and step-by-step guidance for both basic
 
 *Navigating the README*: [Prerequisites](#prerequisites) | [Description](#description) | [Features](#features) | [Tutorial Structure](#tutorial-structure) | [Get Started](#get-started) | [Development](#development) | [License](#license)
 
-*Other Resources*: [:arrow_down: Download AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/) | [:book: User Guide](https://docs.nvidia.com/ai-workbench/) |[:open_file_folder: Other Projects](https://docs.nvidia.com/ai-workbench/user-guide/latest/quickstart/example-projects.html) | [:rotating_light: User Forum](https://forums.developer.nvidia.com/t/support-workbench-example-project-onboarding-project/329786)
+*Other Resources*: [:arrow_down: Download AI Workbench](https://www.nvidia.com/en-us/deep-learning-ai/solutions/data-science/workbench/) | [:books: User Guide](https://docs.nvidia.com/ai-workbench/user-guide/latest/overview/introduction.html) |[:open_file_folder: Other Projects](https://docs.nvidia.com/ai-workbench/user-guide/latest/quickstart/example-projects.html) | [:rotating_light: User Forum](https://forums.developer.nvidia.com/t/support-workbench-example-project-onboarding-project/329786)
 
 ## Prerequisites
  - NVIDIA AI Workbench installed on your system
@@ -62,8 +62,8 @@ This tutorial app uses a template-based system for content management:
 
 ### Adding New Tutorials
 1. Copy the template files:
-   - `template.py` → `your_tutorial.py`
-   - `template.en_US.yaml` → `your_tutorial.en_US.yaml`
+   - `template.py` ÃÂ¢ÃÂÃÂ `your_tutorial.py`
+   - `template.en_US.yaml` ÃÂ¢ÃÂÃÂ `your_tutorial.en_US.yaml`
 2. Update the content in the YAML file
 3. Implement necessary test functions
 4. Update navigation links
