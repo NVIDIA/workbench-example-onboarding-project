@@ -62,8 +62,8 @@ This tutorial app uses a template-based system for content management:
 
 ### Adding New Tutorials
 1. Copy the template files:
-   - `template.py` ÃÂ¢ÃÂÃÂ `your_tutorial.py`
-   - `template.en_US.yaml` ÃÂ¢ÃÂÃÂ `your_tutorial.en_US.yaml`
+   - `template.py` → `your_tutorial.py`
+   - `template.en_US.yaml` → `your_tutorial.en_US.yaml`
 2. Update the content in the YAML file
 3. Implement necessary test functions
 4. Update navigation links
