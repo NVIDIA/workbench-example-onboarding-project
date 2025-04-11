@@ -9,7 +9,7 @@ header: "Basics 02: Creating a New Project"
 
 # general strings
 waiting_msg: Let me know when you are ready.
-testing_msg: Waiting for the task to complete.
+testing_msg: ""
 next: Next
 
 # task script
@@ -243,11 +243,11 @@ info_build_needed: "It looks like your project needs you to start a new build. P
 info_build_running: "Your project's build is currently running."
 info_buid_error: "Uh oh! There was an error building your project. Please check the logs."
 info_container_not_running: "Your project is not running. Please make sure to start it."
-info_container_running: ~
+info_container_running: "Your container is still running. Please stop it."
 info_container_paused: "The container has been manually paused."
 info_container_dead: "Uh oh! The container does not seem healthy. Please check the Workbench logs."
 info_wait_for_app: "It doesn't look like the JupyterLab applications exists. [Please use these directions](https://docs.nvidia.com/ai-workbench/user-guide/latest/applications/applications.html#built-in-apps) to add JupyterLab back into your project."
-info_app_is_running: ~
+info_app_is_running: "Your app is still running. Please stop it."
 info_app_not_running: "Waiting for you to start the JupyterLab application."
 info_app_starting: "JupyterLab is starting up! Just a few more seconds."
 info_wait_for_package: "Waiting for you to add package."
