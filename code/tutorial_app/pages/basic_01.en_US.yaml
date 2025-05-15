@@ -39,7 +39,7 @@ tasks:
     msg: |  
       ##### The Project Tab has a file browser to access, manage and edit files. 
       
-      * Click **File Browser** in the LHS menu.
+      * Click **File Browser** in the main menu bar on the left-side of **AI Workbench**.
       * Click **Create Folder**, and name it `my-first-folder`.
 
     response: |
@@ -60,7 +60,7 @@ tasks:
       
       > **Note:** On your local system, you could have done this in multiple ways without Workbench.     
       However, if the project were on a remote location, you would have had to transfer
-      the file via something like `scp`, or you could have used JupyterLab's file browser to upload the files.
+      the file through something like `scp`, or you could have used JupyterLab's file browser to upload the files.
 
     test: check_file_in_folder
 
@@ -76,10 +76,10 @@ tasks:
         * The `tutorial_app` folder. It has the code for this app.
         * The `example-file.txt` file.
         * The `delete-me.txt` file.      
-      * Click the option dots on the RHS of the `delete-me.txt` file and select `Delete`.
+      * Click the option dots on the right-side of the `delete-me.txt` file and select `Delete`.
 
     response: |
-      ##### Great. You deleted the `delete-me.txt` file.
+      ##### Awesome! You deleted the `delete-me.txt` file.
 
     test: check_file_deleted
 
@@ -90,11 +90,11 @@ tasks:
       For example, **Edit** lets you view and edit a text file without a full editor. It's not a 
       full-featured editor, but it's good for small edits.
 
-      * Click the option dots on the RHS of the `example-file.txt` file and select `Edit`.
+      * Click the option dots on the right-side of the `example-file.txt` file and select `Edit`.
       * A bare bones file editor will open. Add some text like `Hello, World!` and click **Save**.
 
     response: |
-      ##### Nice. You edited the file. 
+      ##### Congratulations!. You edited the file. 
 
       > **Note:** Again, you can do this multiple ways locally, but if the file were a remote location you would
       need to open up JupyterLab or jump through some hoops in a terminal.
@@ -106,7 +106,7 @@ tasks:
       ##### Workbench lets you manage packages without using the command line. 
 
       * Click **Environment > Project Container**
-      * Click **Packages** on the RHS to see installed packages. 
+      * Click **Packages** on the right-side menu to see installed packages. 
       * Click *Add* and select `apt`
       * Enter `jq` in the bar, click **Add** and then **Submit**
 
@@ -153,7 +153,10 @@ tasks:
       Seeing these differences on a file-by-file basis helps you decide whether to commit changes or stick with the current version of a file.
 
       * Go to **Git > Changes** to see the changes you made in this exercise.
-      * The left pane lists the files and the change type: `A` is *added*, `M` is *modified*, and `D` is *deleted*.
+      * The left pane lists the files and the change type: 
+         * `A` is *added*
+         * `M` is *modified*
+         * `D` is *deleted*
       * Clicking an individual file shows the line by line changes in the right pane.
       * You can resize the left and right panes by grabbing the divider between them and dragging it.
 

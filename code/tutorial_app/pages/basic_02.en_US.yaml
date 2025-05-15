@@ -68,7 +68,7 @@ tasks:
       ##### The most obvious way is the big green button that says **JupyterLab**. 
       However, let's do it the hard way to give you a more experience with the Status Bar.
 
-      * Click the `0 apps running` in the bottom RHS of the status bar.
+      * Click the `0 apps running` in the far right-side of the bottom status bar.
       * Click the toggle to start JupyterLab. It may take a second but will open in your browser.
 
       > **Note**: The Desktop App should be in the Project Tab  for `my-first-project`, **not** for `nvidia-ai-workbench-onboarding`.
