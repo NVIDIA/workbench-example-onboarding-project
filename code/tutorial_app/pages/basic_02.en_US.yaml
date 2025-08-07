@@ -27,7 +27,7 @@ tasks:
         - **Path:** It's auto-populated so leave it as is.
       - Click **Next** in the dialog
       - Select **Python Basic** from the list of container images
-      - Click **Select**
+      - Click **Create**
 
 
     response: |
