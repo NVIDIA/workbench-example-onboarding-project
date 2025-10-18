@@ -15,7 +15,7 @@ next: Next
 tasks:
   - name: Create a new project
     msg: |
-      Start off by creating a new project to work in. Name it `custom-application-project` and use the Python Basice base environment.
+      Start off by creating a new project to work in. Name it `custom-application-project` and use the Python Basic base environment.
     response: Great! Let's continue.
     test: create_project
 
