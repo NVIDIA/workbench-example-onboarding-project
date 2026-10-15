@@ -23,8 +23,8 @@ layout:
 environment:
     base:
         registry: nvcr.io
-        image: nvidia/ai-workbench/python-basic:1.0.6
-        build_timestamp: "20250205043314"
+        image: nvidia/ai-workbench/python-basic:1.0.9
+        build_timestamp: "20260112183658"
         name: Python Basic
         supported_architectures: []
         cuda_version: ""
@@ -38,7 +38,7 @@ environment:
             - name: jupyterlab
               type: jupyterlab
               class: webapp
-              start_command: jupyter lab --allow-root --port 8888 --ip 0.0.0.0 --no-browser --NotebookApp.base_url=\$PROXY_PREFIX --NotebookApp.default_url=/lab --NotebookApp.allow_origin='*'
+              start_command: jupyter lab --allow-root --port 8888 --ip 0.0.0.0 --no-browser --ServerApp.base_url=\$PROXY_PREFIX --ServerApp.default_url=/lab --ServerApp.allow_origin='*'
               health_check_command: '[ \$(echo url=\$(jupyter lab list | head -n 2 | tail -n 1 | cut -f1 -d'' '' | grep -v ''Currently'' | sed "s@/?@/lab?@g") | curl -o /dev/null -s -w ''%{http_code}'' --config -) == ''200'' ]'
               stop_command: jupyter lab stop 8888
               user_msg: ""
@@ -54,7 +54,7 @@ environment:
         programming_languages:
             - python3
         icon_url: https://workbench.download.nvidia.com/static/img/ai-workbench-icon-rectangle.jpg
-        image_version: 1.0.6
+        image_version: 1.0.9
         os: linux
         os_distro: ubuntu
         os_distro_release: "22.04"
@@ -78,7 +78,7 @@ environment:
             - name: pip
               binary_path: /usr/bin/pip
               installed_packages:
-                - jupyterlab==4.2.5
+                - jupyterlab==4.3.6
         package_manager_environment:
             name: ""
             target: ""
